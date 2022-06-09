@@ -1,25 +1,25 @@
 
  {
   "User": {
-  "id": "0",
-  "msuid": "TEXT",
-  "isActive": "false",
-  "nric": "TEXT",
+  "id": "Integer",
+  "msuid": "String",
+  "isActive": "Boolean",
+  "nric": "String",
   "userRoles": [
     {
-      "id": "0",
-      "name": "TEXT",
-      "description": "TEXT"
+      "id": "Integer",
+      "name": "String",
+      "description": "String"
     }
   ],
-  "employeeGrpCode": "TEXT",
-  "personnelArea": "TEXT",
-  "unitCode": "TEXT",
-  "lastLoginDateTime": "2022-06-09 16:48:11",
-  "dateCreated": "2022-06-09 16:48:11",
-  "accountStatus": "false",
-  "camStatus": "false",
-  "deletedFlag": "false",
-  "modifyDateTime": "2022-06-09 16:48:11"
+  "employeeGrpCode": "String",
+  "personnelArea": "String",
+  "unitCode": "String",
+  "lastLoginDateTime": "Date",
+  "dateCreated": "Date",
+  "accountStatus": "Boolean",
+  "camStatus": "Boolean",
+  "deletedFlag": "Boolean",
+  "modifyDateTime": "Date"
   }
 }
