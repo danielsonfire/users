@@ -2,19 +2,19 @@
  {
   "User": {
   "id": "0",
-  "msuid": "",
+  "msuid": "TEXT",
   "isActive": "false",
-  "nric": "",
+  "nric": "TEXT",
   "userRoles": [
     {
       "id": "0",
-      "name": "",
-      "description": ""
+      "name": "TEXT",
+      "description": "TEXT"
     }
   ],
-  "employeeGrpCode": "",
-  "personnelArea": "",
-  "unitCode": "",
+  "employeeGrpCode": "TEXT",
+  "personnelArea": "TEXT",
+  "unitCode": "TEXT",
   "lastLoginDateTime": "2022-06-09 16:48:11",
   "dateCreated": "2022-06-09 16:48:11",
   "accountStatus": "false",
