@@ -1,25 +1,25 @@
 
  {
   "User": {
-  "id": "int",
-  "msuid": "string",
-  "isActive": "boolean",
-  "nric": "string",
+  "id": { "int": { "min": 0, "max": 1000000 } },
+  "msuid":  { "string": {} },
+  "isActive": { "boolean": {} } ,
+  "nric": { "string": {} },
   "userRoles": [
     {
-      "id": "int",
-      "name": "string",
-      "description": "string"
+      "id": { "int": { "min": 0, "max": 1000000 } },
+      "name": { "string": {} },
+      "description": { "string": {} }
     }
   ],
-  "employeeGrpCode": "string",
-  "personnelArea": "string",
-  "unitCode": "string",
-  "lastLoginDateTime": "dateTime",
-  "dateCreated": "dateTime",
+  "employeeGrpCode": { "string": {} },
+  "personnelArea": { "string": {} },
+  "unitCode": { "string": {} },
+  "lastLoginDateTime": {"dateTime": {}},
+  "dateCreated": {"dateTime": {}},
   "accountStatus": "boolean",
   "camStatus": "boolean",
   "deletedFlag": "boolean",
-  "modifyDateTime": "dateTime"
+  "modifyDateTime": {"dateTime": {}}
   }
 }
