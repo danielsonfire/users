@@ -1,15 +1,25 @@
 
  {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "User": {
+  "id": 0,
+  "msuid": "",
+  "isActive": false,
+  "nric": "",
+  "userRoles": [
+    {
+      "id": 0,
+      "name": "",
+      "description": ""
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  ],
+  "employeeGrpCode": "",
+  "personnelArea": "",
+  "unitCode": "",
+  "lastLoginDateTime": "2022-06-09 16:48:11",
+  "dateCreated": "2022-06-09 16:48:11",
+  "accountStatus": false,
+  "camStatus": false,
+  "deletedFlag": false,
+  "modifyDateTime": "2022-06-09 16:48:11"
   }
 }
