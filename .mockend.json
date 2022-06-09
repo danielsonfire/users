@@ -1,13 +1,13 @@
 
  {
   "User": {
-  "id": 0,
+  "id": "0",
   "msuid": "",
-  "isActive": false,
+  "isActive": "false",
   "nric": "",
   "userRoles": [
     {
-      "id": 0,
+      "id": "0",
       "name": "",
       "description": ""
     }
@@ -17,9 +17,9 @@
   "unitCode": "",
   "lastLoginDateTime": "2022-06-09 16:48:11",
   "dateCreated": "2022-06-09 16:48:11",
-  "accountStatus": false,
-  "camStatus": false,
-  "deletedFlag": false,
+  "accountStatus": "false",
+  "camStatus": "false",
+  "deletedFlag": "false",
   "modifyDateTime": "2022-06-09 16:48:11"
   }
 }
