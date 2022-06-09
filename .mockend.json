@@ -17,9 +17,9 @@
   "unitCode": { "string": {} },
   "lastLoginDateTime": {"dateTime": {}},
   "dateCreated": {"dateTime": {}},
-  "accountStatus": "boolean",
-  "camStatus": "boolean",
-  "deletedFlag": "boolean",
+  "accountStatus": { "boolean": {} } ,
+  "camStatus": { "boolean": {} } ,
+  "deletedFlag": { "boolean": {} } ,
   "modifyDateTime": {"dateTime": {}}
   }
 }
