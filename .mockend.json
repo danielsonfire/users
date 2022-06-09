@@ -1,44 +1,15 @@
-[{
-  "id": 88,
-  "msuid": "fake_data",
-  "isActive": true,
-  "nric": "fake_data",
-  "userRoles": [
-    {
-      "id": 25,
-      "name": "fake_data",
-      "description": "fake_data"
+
+ {
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
     }
-  ],
-  "employeeGrpCode": "fake_data",
-  "personnelArea": "fake_data",
-  "unitCode": "fake_data",
-  "lastLoginDateTime": "2027-05-26 12:41:55",
-  "dateCreated": "2013-10-21 19:31:49",
-  "accountStatus": true,
-  "camStatus": true,
-  "deletedFlag": true,
-  "modifyDateTime": "2025-01-26 11:01:23"
-},
-{
-  "id": 54,
-  "msuid": "fake_data",
-  "isActive": false,
-  "nric": "fake_data",
-  "userRoles": [
-    {
-      "id": 20,
-      "name": "fake_data",
-      "description": "fake_data"
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
-  ],
-  "employeeGrpCode": "fake_data",
-  "personnelArea": "fake_data",
-  "unitCode": "fake_data",
-  "lastLoginDateTime": "2016-04-28 20:54:46",
-  "dateCreated": "2017-11-27 19:33:07",
-  "accountStatus": true,
-  "camStatus": false,
-  "deletedFlag": false,
-  "modifyDateTime": "2017-09-07 06:48:54"
-}]
+  }
+}
