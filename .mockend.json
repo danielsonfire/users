@@ -5,21 +5,17 @@
   "msuid":  { "string": {} },
   "isActive": { "boolean": {} } ,
   "nric": { "string": {} },
-  "userRoles": [
-    {
-      "id": { "int": { "min": 0, "max": 1000000 } },
-      "name": { "string": {} },
-      "description": { "string": {} }
-    }
-  ],
   "employeeGrpCode": { "string": {} },
   "personnelArea": { "string": {} },
   "unitCode": { "string": {} },
-  "lastLoginDateTime": {"dateTime": {}},
-  "dateCreated": {"dateTime": {}},
+  "lastLoginDateTime": {"dateTime": { "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"}},
+  "dateCreated": {"dateTime": { "min": "2010-01-01T00:00:00Z",
+      "max": "2022-12-31T23:59:59Z"}},
   "accountStatus": { "boolean": {} } ,
   "camStatus": { "boolean": {} } ,
   "deletedFlag": { "boolean": {} } ,
-  "modifyDateTime": {"dateTime": {}}
+  "modifyDateTime": {"dateTime": { "min": "2010-01-01T00:00:00Z",
+      "max": "2022-12-31T23:59:59Z"}}
   }
 }
