@@ -4,7 +4,7 @@
   "id": { "int": { "min": 0, "max": 1000000 } },
   "name":{"string":{}},
    "phoneNo":{"regexp":"^[0-9]{8}$"},
-  "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+  "emailId": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
   "msuid":  { "string": {} },
   "isActive": { "boolean": {} } ,
   "nric": { "string": {} },
