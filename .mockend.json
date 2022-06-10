@@ -2,6 +2,9 @@
  {
   "User": {
   "id": { "int": { "min": 0, "max": 1000000 } },
+  "name":{"string":{}},
+   "phoneNo":{"string":{}},
+  "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
   "msuid":  { "string": {} },
   "isActive": { "boolean": {} } ,
   "nric": { "string": {} },
